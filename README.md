@@ -4,7 +4,7 @@ A Streamlit web app that predicts the species of an iris flower (setosa, versico
 
 **Live demo:** <your Streamlit app URL>
 
-![App screenshot](screenshot.png)
+![Iris Classifier app showing measurement sliders, confidence bars and the predicted species photo](screenshot.png)
 
 ## Features
 
@@ -40,7 +40,7 @@ Then open http://localhost:8501 in your browser.
 
 ## Model
 
-<model type, e.g. Logistic Regression>, trained on the 150-sample Iris dataset with the four measurement features. Test accuracy: <your accuracy>.
+Logistic Regression (scikit-learn), trained on the 150-sample Iris dataset using the four measurement features (sepal and petal length and width). The species label is encoded with `LabelEncoder` (0 = setosa, 1 = versicolor, 2 = virginica).
 
 ## Author
 
