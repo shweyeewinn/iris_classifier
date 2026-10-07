@@ -8,7 +8,8 @@ A Streamlit web app that predicts the species of an iris flower (setosa, versico
 
 ## Features
 
-- Sidebar sliders for sepal and petal length and width
+- Sliders for sepal and petal length and width
+- Responsive layout that works on desktop, tablet and phone
 - Live prediction that updates as you move the sliders
 - Confidence score for each species
 - Photo of the predicted species
